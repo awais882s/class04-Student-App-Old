@@ -41,7 +41,6 @@ function Students() {
     });
 
     setStudents([...newStudents]);
-
     console.log("newStudents", newStudents);
   };
 
