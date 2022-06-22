@@ -2,7 +2,7 @@ import Students from "./components/students";
 function App() {
   return (
     <div className="App">
-     <Students />
+      <Students />
     </div>
   );
 }
