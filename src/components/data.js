@@ -1,7 +1,7 @@
 export const data = [
     {
      id:121,
-      name: "naveed",
+      name: "Awais",
       batch: "batch 3",
       roll: "32",
       class: "web and mobile"
