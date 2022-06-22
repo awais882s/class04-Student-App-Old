@@ -116,7 +116,6 @@ function Students() {
         placeholder="Name"
         value={name}
         name="name"
-        placeholder="name"
         onChange={(e) => setName(e.target.value)}
       />
       <input
@@ -124,20 +123,18 @@ function Students() {
         placeholder="Batch"
         value={Batch}
         name="s"
-        placeholder="Batch"
         onChange={(e) => setBatch(e.target.value)}
       />
       <input
         type="text"
         placeholder="Roll"
         value={roll}
-        placeholder="Roll No."
         onChange={(e) => setRoll(e.target.value)}
       />
       <input
         type="text"
-        value={stuClass}
         placeholder="Class"
+        value={stuClass}
         onChange={(e) => setStuClass(e.target.value)}
       />
 
