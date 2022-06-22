@@ -8,7 +8,6 @@
 //         </tr>
 //     )
 // }
-
 function StudentList({ student, index, deleteHandler, updateHandler }) {
   return (
     <tr>
