@@ -74,7 +74,6 @@ function Students() {
     } else {
       setMessage(" Found few of params empty! Params can't be empty.");
     }
-
     // new data add in student list
   };
 
