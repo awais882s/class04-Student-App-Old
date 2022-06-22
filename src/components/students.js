@@ -113,6 +113,7 @@ function Students() {
       <h1>New Student Add</h1>
       <input
         type="text"
+        placeholder="Name"
         value={name}
         name="name"
         placeholder="name"
@@ -120,6 +121,7 @@ function Students() {
       />
       <input
         type="text"
+        placeholder="Batch"
         value={Batch}
         name="s"
         placeholder="Batch"
@@ -127,6 +129,7 @@ function Students() {
       />
       <input
         type="text"
+        placeholder="Roll"
         value={roll}
         placeholder="Roll No."
         onChange={(e) => setRoll(e.target.value)}
