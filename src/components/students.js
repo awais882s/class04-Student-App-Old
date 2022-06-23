@@ -11,7 +11,6 @@ function Students() {
   const [stuClass, setStuClass] = useState("");
   const [flag, setFlag] = useState(false);
   const [updatedIndex, setUpdatedIndex] = useState(0);
-
   // const inputHandlerName = (e)=>{
   //     console.log("e", e.targe.name);
   //     console.log("E ", e.target.value)
@@ -30,6 +29,7 @@ function Students() {
 
   //    console.log("newStudents", newStudents);
   // }
+
 
   const deleteHandler = (index) => {
     // console.log('name', stuname);
